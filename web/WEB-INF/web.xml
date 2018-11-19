@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>allProduct</servlet-name>
+        <servlet-class>Controller.ShoppingCartController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allProduct</servlet-name>
+        <url-pattern>/allProduct.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>prodictInBasket</servlet-name>
+        <servlet-class>Controller.ProdictInBasket</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>prodictInBasket</servlet-name>
+        <url-pattern>/product.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>addProductInBasket</servlet-name>
+        <servlet-class>Controller.AddProductInBasket</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addProductInBasket</servlet-name>
+        <url-pattern>/addProductInBasket.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>removeProductInBasket</servlet-name>
+        <servlet-class>Controller.RemoveProductInBasket</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>removeProductInBasket</servlet-name>
+        <url-pattern>/removeProductInBasket.do</url-pattern>
+    </servlet-mapping>
+</web-app>

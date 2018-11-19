@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DemoShoppingCart">
+    <output-path>$PROJECT_DIR$/out/artifacts/DemoShoppingCart</output-path>
+    <root id="archive" name="DemoShoppingCart.war">
+      <element id="javaee-facet-resources" facet="DemoShoppingCart/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DemoShoppingCart" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
